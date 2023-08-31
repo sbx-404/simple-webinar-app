@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:ital,wght@0,600;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+/* navigation */
+
+.nav-container{
+    padding:3em 2em;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 18px;
+    height: 32px;
+}
+
+.nav-list-container{
+    width: 35em;
+}
+
+.list{
+    list-style: none;
+}
+
+.nav-list{
+display: flex;
+justify-content: space-between;
+}
+
+.list-inline:hover{
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+
+.register-link-btn{
+    border-radius:10px;
+    color:white;
+    background-color: purple;
+    padding: 1rem;
+
+}
+
+/* coding img section  */
+
+.javascript-img-container{
+    position: relative;
+}
+
+.javascript-img-container .coding-img{
+    border-radius: 1rem;
+    width:50%;
+    height:100vmin;
+    }
+
+.javascript-img-container-content{
+    position:absolute;
+    top:13em;
+    right: 0em;
+    left: 1em;
+    padding-right:3em;
+    padding-left: 50%;
+    text-align: center;
+}
+
+.coding-img-para-bold{
+    font-size: 40px;
+    line-height: 54px;
+
+}
+
+.coding-img-make-spacing{
+    line-height: 25px;
+}
+
+/* Links */
+
+.link{
+    text-decoration: none;
+}
+
+.webinar-details{
+    padding-left: 1.7rem;
+width:48%;
+margin-right: 50%;
+
+}
+
+.timer-div{
+display:flex;
+justify-content: space-between;
+padding-top:1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-bottom: 0.4rem;
+
+}
+
+.social-media-icon{
+    display: flex;
+    justify-content: space-between;
+    width:2.5rem;
+}
+
+.webinar-desp{
+    padding-top: 1em;
+    padding-bottom: 1rem;
+}
+
+.webinar-desp-para{
+    padding-top:1em ;
+}
+
+
+.resizing-btn{
+    display: flex;
+    justify-content: center;
+    padding:3rem;
+
+}
+
+
+.imp-webinar-points-section{
+    background-color: rgb(231, 227, 220);
+    height: 20vh;
+width: 60%;
+margin: auto;
+
+}
+
+.line-marker{
+    background-color:rgb(115, 39, 187);
+    height: 10px;
+}
+
+.imp-webinar-points-section h3{
+    padding: 1em;
+}
+
+
+.imp-webinar-points-section  .list li::before{
+    content: "->";
+    padding-left:2em ;
+    padding-right:0.4em ;
+}
+
+.list-spacing{
+padding-bottom: 1em;    
+}
+
+
