@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', monospace;
+  background-color: #1b1b32;
+
+}
+
+.popup-img{
+width: 70px;
+margin-top: -8%;
+background-color: #fff;
+border-radius:3rem;
+}
+
+.popup-container{
+    background-color: #fff;
+    text-align: center;
+    width:50%;
+    height: 35vh;
+    line-height:2;
+    margin: 8rem auto;
+    border: 1px solid rgb(221, 209, 209);
+    box-shadow: 0 0 20rem 0 purple;
+    border-radius:4px;
+
+}
+
+.successfull-msg{
+    font-size:18px;
+}
+
+.submit-btn{
+    width:50%;
+    height: 3em;
+    margin-top: 25px;
+    background-color: rgb(38, 179, 62);
+    font-size: 16px;
+    font-weight:20;
+    border: none;
+    cursor: pointer;
+    border-radius:4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
